@@ -72,9 +72,9 @@ body{
     z-index: -1;position: relative;   
 }
 
-.container{
+.content{
     width: 85%;
-    max-width: 750px;
+    max-width: 550px;
     margin: 0px auto;
     margin-bottom: auto;
 }
@@ -82,18 +82,18 @@ body{
     clear:both;
 }
 .aside{
-width: 35%;
-height: auto;
-float: left;
-line-height: 30px;
-background: linear-gradient(rgba(181, 181, 181,0.3), rgba(0, 0, 0,0.5));
-border-radius: 100px;
-text-align: center;
-border: #CFD1D1 9px outset;
-border-radius: 80px;
-border-color: #CFD1D1;
-box-shadow: 10px 10px 10px 6px rgba(0, 0, 0, 2.1);
-margin: 8px;
+    width: 350px;
+    height: 305px;
+    float: left;
+    line-height: 30px;
+    background: linear-gradient(rgba(181, 181, 181,0.3), rgba(0, 0, 0,0.5));
+    border-radius: 80px;
+    text-align: center;
+    border: #CFD1D1 9px outset;
+    border-radius: 80px;
+    border-color: #CFD1D1;
+    box-shadow: 10px 10px 10px 6px rgba(0, 0, 0, 2.1);
+    margin: 4px;
 }
 
 h1{
@@ -108,12 +108,12 @@ img{
     border-radius: 30%;
 }
 
-section{
+Section{
     float: left;
-    width: 800px;
+    width: 830px;
     height: auto;
     position: relative;
-    padding: 30px;
+    padding: 10px;
     background: rgba(255, 255, 255,.5);
     box-shadow: 0 5px 15px rgba(0, 0, 0,2);
     text-align: justify;
@@ -135,11 +135,11 @@ footer{
 
 .pagina{
     width: auto;
-    height: 100%;
+    height: auto;
     float: right;
-    line-height: 35px;
-    align-items: center;
-    border-radius: 10px;
-    margin: 60px;
+    line-height: auto;
+    align-items: left;
+    border-radius: auto;
+    margin: 10px;
 }
 
