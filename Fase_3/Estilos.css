@@ -110,7 +110,7 @@ img{
 
 Section{
     float: left;
-    width: 600px;
+    width: 830px;
     height: auto;
     position: relative;
     padding: 10px;
@@ -135,11 +135,11 @@ footer{
 
 .pagina{
     width: auto;
-    height: 100%;
+    height: auto;
     float: right;
-    line-height: 35px;
-    align-items: center;
-    border-radius: 10px;
-    margin: 60px;
+    line-height: auto;
+    align-items: left;
+    border-radius: auto;
+    margin: 10px;
 }
 
