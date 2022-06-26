@@ -81,7 +81,7 @@ body{
 .clearfix{
     clear:both;
 }
-.aside{
+aside{
 width: auto;
 height: 100px;
 float: left;
