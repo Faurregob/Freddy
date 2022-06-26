@@ -82,7 +82,7 @@ body{
     clear:both;
 }
 .aside{
-width: 35%;
+width: auto;
 height: auto;
 float: left;
 line-height: 30px;
