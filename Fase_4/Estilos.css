@@ -143,3 +143,9 @@ footer{
     margin: 10px;
 }
 
+@media screen and (max-width: 480px){
+    .fecha{
+        background-color: red;
+    }
+}
+
