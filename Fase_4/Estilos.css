@@ -81,7 +81,7 @@ body{
 .clearfix{
     clear:both;
 }
-.aside{
+.datosp{
     width: 350px;
     height: 305px;
     float: left;
@@ -143,9 +143,33 @@ footer{
     margin: 10px;
 }
 
-@media screen and (max-width: 250px){
-    .contenedor{
-        background-color: red;
+@media screen and (max-width: 600px){
+        .header{
+        background-color: aqua;
+        width: auto;
+        height: auto;
     }
+    h1, p{
+        width: auto;
+        height: auto;
+    }
+    Section{
+        width: auto;
+        height: left;
+
+    }
+    .datosp{
+        width: auto;
+        height: auto;
+    }
+    .aside{
+        width: auto;
+        height: auto;
+    }
+    .clearfix{
+        width: auto;
+        height: auto;
+    }
+    
 }
 
