@@ -43,10 +43,10 @@ ul, ol{
 
 .navizq li a{
     background: linear-gradient(rgba(100, 100, 100,0.5), rgba(0, 0, 0,0.6));
-    padding: 2px 5px;
+    padding: 2px 2px;
     display: block;
-    margin: 10px;
-    font-size: auto;
+    margin: 5px;
+    font-size: 20px;
 }
 
 .navizq li a:hover{
@@ -89,7 +89,6 @@ body{
     margin: 0px auto;
     margin-bottom: auto;
     float: left;
-    width: 900px;
     height: auto;
     position: relative;
     padding: 10px;
@@ -168,12 +167,18 @@ Section{
         width: auto;
         background-color: rgb(224, 227, 25);
     }
+    #contentizq{
+        max-width: 700px;
+    }
     
 }
 @media screen and (max-width: 800px){
     body{
         width: auto;
         background-color: rgb(226, 114, 16);
+    }
+    #contentizq{
+        max-width: 500px;
     }
     
 }
