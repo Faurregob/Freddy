@@ -4,6 +4,7 @@
 }
     
 header{
+    max-width: auto;
     text-align: center;
     line-height: 100px;
     color: black;
@@ -17,6 +18,12 @@ header{
     background: linear-gradient(rgba(162, 164, 160,0.8), rgba(0, 0, 0,0.5));   
 }
 
+.headerizq{
+    width: 1220px;
+    float: left;
+    margin: 10px auto;
+
+}
 .headerizq a{
     color:white;
     text-decoration: none;
@@ -77,11 +84,19 @@ body{
     z-index: -1;position: relative;   
 }
 
-.contentizq{
-    width: 900px;
-    max-width: 550px;
+#contentizq{
+    max-width: 800px;
     margin: 0px auto;
     margin-bottom: auto;
+    float: left;
+    width: 900px;
+    height: auto;
+    position: relative;
+    padding: 10px;
+    background: rgba(255, 255, 255,.5);
+    box-shadow: 0 5px 15px rgba(0, 0, 0,2);
+    text-align: justify;
+    margin: 0.5%;
 }
 .clearfix{
     clear:both;
@@ -115,7 +130,7 @@ img{
 
 Section{
     float: left;
-    width: 830px;
+    width: 900px;
     height: auto;
     position: relative;
     padding: 10px;
@@ -148,185 +163,25 @@ Section{
     border-radius: auto;
     margin: 8px;
 }
-@media screen and (max-width: 1600px){
+    @media screen and (max-width: 1000px){
     body{
-        background-color: rgb(0, 255, 255);
-    }
-    .contenedor{
-    }
-    header{
-    }
-    .headerizq a{
-    }
-    ul, ol{
-    }
-    .navizq{
-    }
-    .navizq li a{
-    }
-    .navizq li a:hover{
-    }
-    .navizq > li{
-    }
-    .navizq li ul{
-    }
-    .navizq li:hover > ul{
-    }
-    p{
-    }
-    .contentizq{
-    }
-    .clearfix{
-    }
-    .datospder{
-    }
-    h1{
-    }
-    img{
-    }
-    Section{
-    }
-    .Piepagicen{
-    }
-    .fecha{
-    }
-    .paginader{
+        width: auto;
+        background-color: rgb(224, 227, 25);
     }
     
 }
-    @media screen and (max-width: 1280px){
-    body{
-        background-color: rgb(224, 227, 25);
-    }
-    .contenedor{
-    }
-    header{
-    }
-    .headerizq a{
-    }
-    ul, ol{
-    }
-    .navizq{
-    }
-    .navizq li a{
-    }
-    .navizq li a:hover{
-    }
-    .navizq > li{
-    }
-    .navizq li ul{
-    }
-    .navizq li:hover > ul{
-    }
-    p{
-    }
-    .contentizq{
-    }
-    .clearfix{
-    }
-    .datospder{
-    }
-    h1{
-    }
-    img{
-    }
-    Section{
-    }
-    .Piepagicen{
-    }
-    .fecha{
-    }
-    .paginader{
-    }
-}
 @media screen and (max-width: 800px){
     body{
+        width: auto;
         background-color: rgb(226, 114, 16);
     }
-    .contenedor{
-    }
-    header{
-    }
-    .headerizq a{
-    }
-    ul, ol{
-    }
-    .navizq{
-    }
-    .navizq li a{
-    }
-    .navizq li a:hover{
-    }
-    .navizq > li{
-    }
-    .navizq li ul{
-    }
-    .navizq li:hover > ul{
-    }
-    p{
-    }
-    .contentizq{
-    }
-    .clearfix{
-    }
-    .datospder{
-    }
-    h1{
-    }
-    img{
-    }
-    Section{
-    }
-    .Piepagicen{
-    }
-    .fecha{
-    }
-    .paginader{
-    }
+    
 }
 
 @media screen and (max-width: 480px){
     body{
+        width: auto;
         background-color: rgb(15, 21, 185);
     }
-    .contenedor{
-    }
-    header{
-    }
-    .headerizq a{
-    }
-    ul, ol{
-    }
-    .navizq{
-    }
-    .navizq li a{
-    }
-    .navizq li a:hover{
-    }
-    .navizq > li{
-    }
-    .navizq li ul{
-    }
-    .navizq li:hover > ul{
-    }
-    p{
-    }
-    .contentizq{
-    }
-    .clearfix{
-    }
-    .datospder{
-    }
-    h1{
-    }
-    img{
-    }
-    Section{
-    }
-    .Piepagicen{
-    }
-    .fecha{
-    }
-    .paginader{
-    }
+    
 }
