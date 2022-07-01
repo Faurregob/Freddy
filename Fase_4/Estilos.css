@@ -1,5 +1,8 @@
 .contenedor{
-    width: 1250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100vw;
     margin: 0 auto;
 }
     
@@ -19,10 +22,8 @@ header{
 }
 
 .headerizq{
-    width: 1220px;
+    width: 100%;
     float: left;
-    margin: 10px auto;
-
 }
 .headerizq a{
     color:white;
@@ -82,37 +83,32 @@ body{
     line-height: 1.3em;
     background-blend-mode:color;
     z-index: -1;position: relative;   
+    overflow-x: hidden;
 }
 
 #contentizq{
-    max-width: 800px;
-    margin: 0px auto;
-    margin-bottom: auto;
-    float: left;
+    width: 60%;
     height: auto;
-    position: relative;
     padding: 10px;
     background: rgba(255, 255, 255,.5);
     box-shadow: 0 5px 15px rgba(0, 0, 0,2);
     text-align: justify;
-    margin: 0.5%;
+    
 }
 .clearfix{
     clear:both;
 }
 .datospder{
-    width: 350px;
-    height: 305px;
-    float: right;
+    height: 50%;
+    width: 30%;
+    /*float: right;*/
     line-height: 30px;
     background: linear-gradient(rgba(181, 181, 181,0.3), rgba(0, 0, 0,0.5));
     border-radius: 80px;
     text-align: center;
     border: #CFD1D1 9px outset;
-    border-radius: 80px;
-    border-color: #CFD1D1;
     box-shadow: 10px 10px 10px 6px rgba(0, 0, 0, 2.1);
-    margin: 8px;
+    
 }
 
 h1{
@@ -154,39 +150,43 @@ Section{
 }
 
 .paginader{
-    width: 350px;
     height: auto;
-    float: right;
     line-height: auto;
-    align-items: left;
     border-radius: auto;
-    margin: 8px;
+    margin: 15px auto;
+    
 }
-    @media screen and (max-width: 1000px){
+ @media screen and (max-width: 1000px){
     body{
         width: auto;
-        background-color: rgb(224, 227, 25);
     }
-    #contentizq{
+    /*contentizq{
         max-width: 700px;
+    }*/
+    .datospder{
+        border: #CFD1D1 5px outset;
     }
     
 }
 @media screen and (max-width: 800px){
     body{
         width: auto;
-        background-color: rgb(226, 114, 16);
     }
-    #contentizq{
+    /*#contentizq{
         max-width: 500px;
-    }
+    }*/
     
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 600px){
     body{
         width: auto;
-        background-color: rgb(15, 21, 185);
     }
-    
+    #contentizq{
+        width: 100%;
+    }
+    .datospder{
+        width: 100%;
+    }
+   
 }
